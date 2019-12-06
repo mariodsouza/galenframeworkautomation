@@ -1,0 +1,12 @@
+
+
+@objects
+	shaadi-logo		xpath	//div[@class='home_logo']
+	login-button	xpath	//a[@class='member_login']
+	
+=Main Section=
+	@on desktop
+		shaadi_logo:
+			width 10 px
+    		height 2 px
+    		text contains "bharat"
